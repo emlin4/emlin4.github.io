@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eddie Lin">
+    <title>Red-Black Trees</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Red-Black Trees</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../dijkstras.html/dijkstras.html">Dijkstra's Algorithm</a></li>
+            <li><a href="../btree.html/btree.html">B-Trees</a></li>
+            <li><a href="../bst.html/bst.html">Binary Search Trees</a></li>
+            <li><a href="../rbt.html/methods.html/rbtmethods.html">Red-Black Tree Methods</a></li>
+            <li><a href="../rbt.html/properties.html/rbtproperties.html">Red-Black Tree Properties</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Introduction</h2>
+        <p>A Red-Black Tree is a self-balancing binary search tree where nodes follow specific properties to ensure logarithmic time complexity for insertion, deletion, and search operations.</p>
+        
+        <h2>Properties of Red-Black Trees</h2>
+        <ul>
+            <li>Each node is either red or black.</li>
+            <li>The root node is always black.</li>
+            <li>Red nodes cannot have red children (no two consecutive red nodes).</li>
+            <li>Every path from the root to a leaf contains the same number of black nodes (black-height).</li>
+        </ul>
+        
+        <h2>Operations</h2>
+        <ul>
+            <li>Insertion - Follows standard BST insertion with color adjustments and rotations.</li>
+            <li>Deletion - Ensures tree balance while maintaining Red-Black properties.</li>
+            <li>Search - Operates like a regular BST with balanced structure.</li>
+        </ul>
+        
+        <h2>Example</h2>
+        <p>The diagram below illustrates a Red-Black Tree:</p>
+        <img src="rbt.png" alt="Red-Black Tree Example">
+        
+        <h2>More Information</h2>
+        <p>Learn more about Red-Black Trees on <a href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree" target="_blank">Wikipedia</a>.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Eddie Lin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
