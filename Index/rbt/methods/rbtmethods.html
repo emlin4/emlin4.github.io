@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>Red-Black Tree Methods</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header>
+        <h1>Red-Black Tree Methods</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../rbt.html">Red-Black Tree Overview</a></li>
+            <li><a href="../properties.html/rbtproperties.html">Red-Black Tree Properties</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Insertion</h2>
+        <p>Insertion in a Red-Black Tree follows BST insertion rules but requires additional balancing steps:</p>
+        <ul>
+            <li>New nodes are inserted as red.</li>
+            <li>If the parent is also red, rotations and color changes are applied.</li>
+            <li>The tree maintains its properties through rebalancing.</li>
+        </ul>
+        
+        <h2>Deletion</h2>
+        <p>Deletion requires careful handling to maintain Red-Black properties:</p>
+        <ul>
+            <li>Standard BST deletion is performed first.</li>
+            <li>If a black node is removed, rebalancing is required to maintain black height.</li>
+            <li>Rebalancing includes color flips and rotations.</li>
+        </ul>
+        
+        <h2>Search</h2>
+        <p>The search operation follows standard BST rules:</p>
+        <ul>
+            <li>Compare the key with the root node.</li>
+            <li>Traverse left if the key is smaller, right if larger.</li>
+            <li>Repeat until the key is found or a null node is reached.</li>
+        </ul>
+        
+        <h2>Example</h2>
+        <p>The diagram below illustrates Red-Black Tree operations:</p>
+        <img src="rbtinsertion.png" alt="Red-Black Tree Insertion Fix">
+        <img src="rbtdeletion.png" alt="Red-Black Tree Deletion Fix">
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
