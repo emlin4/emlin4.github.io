@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Dijkstra's Algorithm Page Styles */
+.dijkstras-page main {
+    background-color: #e6f2ff;
+    border-left: 5px solid #0044cc;
+    padding: 25px;
+}
+.dijkstras-page h2 {
+    color: #003399;
+}
+.dijkstras-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.dijkstras-page img {
+    border: 3px solid #0044cc;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Btree style*/
+.btree-page main {
+    background-color: #f2e6ff;
+    border-left: 5px solid #6600cc;
+    padding: 25px;
+}
+.btree-page h2 {
+    color: #5500aa;
+}
+.btree-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.btree-page img {
+    border: 3px solid #6600cc;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Binary Search Trees (BST) Page Styles */
+.bst-page main {
+    background-color: #e6ffe6;
+    border-left: 5px solid #008000;
+    padding: 25px;
+}
+.bst-page h2 {
+    color: #006600;
+}
+.bst-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.bst-page img {
+    border: 3px solid #008000;
+    padding: 5px;
+    background-color: white;
+}
+
+/* BST Methods Page Styles */
+.bstmethods-page main {
+    background-color: #fff5e6;
+    border-left: 5px solid #cc6600;
+    padding: 25px;
+}
+.bstmethods-page h2 {
+    color: #b35900;
+}
+.bstmethods-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* BST Properties Page Styles */
+.bstproperties-page main {
+    background-color: #e6f9ff;
+    border-left: 5px solid #0099cc;
+    padding: 25px;
+}
+.bstproperties-page h2 {
+    color: #0077aa;
+}
+.bstproperties-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.bstproperties-page img {
+    border: 3px solid #0099cc;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Red-Black Trees Page Styles */
+.rbt-page main {
+    background-color: #ffe6e6;
+    border-left: 5px solid #cc0000;
+    padding: 25px;
+}
+.rbt-page h2 {
+    color: #aa0000;
+}
+.rbt-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.rbt-page img {
+    border: 3px solid #cc0000;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Red-Black Tree Methods Page Styles */
+.rbtmethods-page main {
+    background-color: #ffcccc;
+    border-left: 5px solid #990000;
+    padding: 25px;
+}
+.rbtmethods-page h2 {
+    color: #800000;
+}
+.rbtmethods-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.rbtmethods-page img {
+    border: 3px solid #990000;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Red-Black Tree Properties Page Styles */
+.rbtproperties-page main {
+    background-color: #ffe6e6;
+    border-left: 5px solid #cc3333;
+    padding: 25px;
+}
+.rbtproperties-page h2 {
+    color: #aa2222;
+}
+.rbtproperties-page ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.rbtproperties-page img {
+    border: 3px solid #cc3333;
+    padding: 5px;
+    background-color: white;
+}
